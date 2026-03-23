@@ -9,6 +9,13 @@ Steps Performed:
 Database & schema setup
 Table creation
 File staging
+Data loading
+Validation
+
+Key concepts/tasks applied:
+Handling CSV ingestion
+Structuring CRM-style data
+Validating pipeline data
 
 
 
@@ -32,10 +39,4 @@ Repository Structure:
 │
 └── notes/
     └── setup_summary.md
-Data loading
-Validation
 
-Key concepts/tasks applied:
-Handling CSV ingestion
-Structuring CRM-style data
-Validating pipeline data
