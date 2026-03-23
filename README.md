@@ -1,17 +1,4 @@
 # saas-b2b-crm-snowflake-setup
-Structure:
-/sql
-  - create_database.sql
-  - create_tables.sql
-  - load_data.sql
-  - validation_queries.sql
-
-/screenshots
-  - database_schema.png
-  - stage_setup.png
-  - query_results.png
-
-/README.md
 
 Sections:
 
@@ -22,6 +9,29 @@ Steps Performed:
 Database & schema setup
 Table creation
 File staging
+
+
+
+Repository Structure: 
+│── README.md
+│
+├── sql/
+│   ├── 01_create_database_schema.sql
+│   ├── 02_create_tables.sql
+│   ├── 03_file_format_and_stage.sql
+│   ├── 04_load_data.sql
+│   ├── 05_validation_queries.sql
+│   └── 06_analytical_queries.sql
+│
+├── screenshots/
+│   ├── schema_overview.png
+│   ├── stage_setup.png
+│   ├── data_load_results.png
+│   ├── validation_query.png
+│   └── sample_output.png
+│
+└── notes/
+    └── setup_summary.md
 Data loading
 Validation
 
